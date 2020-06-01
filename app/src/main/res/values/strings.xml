@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NM Course</string>
+    <string name="terms">by continuing you agree to our terms and conditions</string>
+    <string name="Upload"> <u>Upload</u></string>
+    <string name="Edit_details"> <u>Edit Details</u></string>
+</resources>

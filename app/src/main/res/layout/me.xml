@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollperson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otpbackgorund">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/profileLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/bgforuser"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_Image"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="2dp"
+
+                    android:src="@drawable/ic_person"
+                    app:civ_border_color="#c1c1c1"
+                    app:civ_border_width="4dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@string/toast_message"
+                    android:text="Shubham Bairwa"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/userEmail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profile_Image"
+                    app:layout_constraintVertical_bias="0.0">
+
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/userEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="shubhamver61002@gmail.com"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userName">
+
+
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/googlebtn"
+        android:elevation="6dp"
+        android:text="Logout"
+        android:textAllCaps="false"></Button>
+</RelativeLayout></FrameLayout>

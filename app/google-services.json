@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "925046306169",
+    "firebase_url": "https://nm-courses.firebaseio.com",
+    "project_id": "nm-courses",
+    "storage_bucket": "nm-courses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925046306169:android:b8fb959b387c1cf847aba8",
+        "android_client_info": {
+          "package_name": "com.shubhcode.nmcourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925046306169-6k61m905cr2aor1u0j27knhk5cj6569p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubhcode.nmcourse",
+            "certificate_hash": "4fae06a66ffd659f7f893d27da992e89ee269c24"
+          }
+        },
+        {
+          "client_id": "925046306169-r3r0da66l5jq9np4ipjbvhvp8ef3bito.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByGdRLwSD_Ec6ixMbRaqaT3rHOGIcdPhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925046306169-r3r0da66l5jq9np4ipjbvhvp8ef3bito.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
